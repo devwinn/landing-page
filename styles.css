@@ -6,7 +6,9 @@ body {
 }
 
 .one {
-    background: #1f2937;
+    flex: column;
+    flex-wrap: nowrap;
+    background: hsl(215, 28%, 17%);
     color: #f9faf8;
 }
 
@@ -18,16 +20,39 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
-
+/* id header is for header links */
 #header { 
     list-style: none;
     display: flex;
-    margin: 5px;
+    justify-content: space-between
+    font: 18px #e5e7eb;
+    ;
 
 }
+
+.one_content {
+    display: flex;
+    margin: 2%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.placeholder {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: gray;
+    border: 4px black;
+    color: #e5e7eb;
+    align-items: center;
+    
+}
+
 button {
-    background-color: #3882f6;
+    background-color: #4e5053;
     color: #f9faf8;
     border-radius: 5px;
     padding: 5px;
