@@ -60,8 +60,8 @@ body {
 }
 
 .one_content {
-    
     display: flex;
+    flex: auto;
     margin: 10% 0 50px;
     justify-content: space-between;
     align-items: center;
@@ -103,8 +103,29 @@ h1 {
     flex-wrap: nowrap;
     font-size: 36px;
     width: fit-content;
+    margin-top: 25px;
 }
 
 .random_blocks {
+    display: flex;
     list-style: none;
+    
+
+}
+
+.chunks {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.empty {
+    display: flex;
+    border: solid #3882f6 5px;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
 }
