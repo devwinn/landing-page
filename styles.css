@@ -2,64 +2,109 @@ body {
     min-height: 100vh;
     margin: 0;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
+    flex: 1;
 }
 
 .one {
-    flex: column;
     flex-wrap: nowrap;
-    background: hsl(215, 28%, 17%);
+    background:#1f2937;
+    padding: 0 10% 5%;
+}
+
+.two {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   
+    align-items: center;
+    background-color: white;
+
+}
+
+.three {
+    display: flex;
+    justify-content: stretch;
+    background-color: #e5e7eb; 
+}
+
+.primary {
     color: #f9faf8;
 }
 
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
 .logo {
+    margin-right: auto;
     font-size: 24px;
     color: #f9faf8
+    
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-}
-/* id header is for header links */
-#header { 
-    list-style: none;
-    display: flex;
-    justify-content: space-between
-    font: 18px #e5e7eb;
-    ;
-
-}
-
-.one_content {
-    display: flex;
-    margin: 2%;
-    justify-content: center;
-    gap: 10px;
-}
-
-.placeholder {
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color: gray;
-    border: 4px black;
-    color: #e5e7eb;
+    justify-content: space-evenly;
     align-items: center;
     
 }
 
+.links { 
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.one_content {
+    
+    display: flex;
+    margin: 10% 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.placeholder {
+    display: flex;
+    background-color: gray;
+    border: 4px black;
+    color: #e5e7eb;
+    width: 700px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 button {
-    background-color: #4e5053;
+    background-color: #3882f6;
     color: #f9faf8;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px;
+    width: 100px;
     
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
+    width: 400px;
+    margin: 0;
+
+}
+
+.ditwo {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 36px;
+    width: fit-content;
+}
+
+.random_blocks {
+    list-style: none;
 }
