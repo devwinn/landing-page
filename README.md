@@ -6,6 +6,7 @@ This project utilizes HTML and CSS.
 <br>
 https://devwinn.github.io/landing-page
 <br>
+
 ![GitHub language count](https://img.shields.io/github/languages/count/devwinn/landing-page)
 ![GitHub top language](https://img.shields.io/github/languages/top/devwinn/landing-page?color=yellow)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/devwinn/landing-page)
